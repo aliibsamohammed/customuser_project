@@ -1,0 +1,222 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-20 03:35+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\customuser_project\settings.py:145
+msgid "Amharic"
+msgstr "አማርኛ"
+
+#: .\customuser_project\settings.py:146
+msgid "English"
+msgstr "እንግሊዝኛ"
+
+#: .\customuser_project\settings.py:147
+msgid "Afaan Oromoo"
+msgstr "አፋን ኦሮሞ"
+
+#: .\customuser_project\settings.py:153
+msgid "Simplified Chinese"
+msgstr "ቀለል ያለ ቻይንኛ"
+
+#: .\templates\about.html:36
+msgid "I am"
+msgstr "እኔ"
+
+#: .\templates\about.html:37
+msgid "A Civil Engineer and Software Engineer"
+msgstr "የሲቪል መሐንዲስ እና የሶፍትዌር መሐንዲስ ነኝ"
+
+#: .\templates\about.html:38
+msgid "Project Manager and Design Engineer"
+msgstr "የፕሮጀክት ሥራ አስኪያጅ እና የዲዛይን መሐንዲስ"
+
+#: .\templates\about.html:40
+msgid "Systems Analyst, Systems Architect & Programmer"
+msgstr "የስርዓት ተንታኝ ፣ ሲስተምስ አርክቴክት እና ፕሮግራመር"
+
+#: .\templates\about.html:41
+msgid "This is a django customuser management app: Enjoy it"
+msgstr "ይህ የጃንጎ የተጠቃሚ አስተዳደር መተግበሪያ ነው - ይደሰቱበት"
+
+#: .\templates\about.html:44
+msgid "Contact Me"
+msgstr "እኔን ያነጋግሩኝ"
+
+#: .\templates\base.html:9 .\templates\index.html:41
+msgid "Django User Management"
+msgstr "የጃንጎ የተጠቃሚ አስተዳደር መተግበሪያ"
+
+#: .\templates\base.html:15
+msgid "Home"
+msgstr "ሆም"
+
+#: .\templates\base.html:23
+msgid "About"
+msgstr "ስለ እኛ"
+
+#: .\templates\base.html:26
+msgid "Contact"
+msgstr "አግኙን"
+
+#: .\templates\base.html:30
+msgid "Admin"
+msgstr "አስተዳዳሪ"
+
+#: .\templates\base.html:41
+msgid "Account"
+msgstr "መለያ"
+
+#: .\templates\base.html:45
+msgid "Password"
+msgstr "ፕስወርድ"
+
+#: .\templates\base.html:46
+msgid "Email"
+msgstr "ኢሜል"
+
+#: .\templates\base.html:48
+msgid "Log out"
+msgstr ""
+
+#: .\templates\base.html:54
+msgid "Profile"
+msgstr "ውጣ"
+
+#: .\templates\base.html:57
+msgid "Update"
+msgstr "ቀይር"
+
+#: .\templates\base.html:59
+msgid "View"
+msgstr "ይመልከቱ"
+
+#: .\templates\base.html:66
+msgid "Sign Up"
+msgstr "መለያ ይመዝገቡ"
+
+#: .\templates\base.html:69
+msgid "Log In"
+msgstr "ግባ መለያ"
+
+#: .\templates\base.html:72 .\templates\change_language.html:3
+msgid "Change language"
+msgstr "ቋንቋ ቀይር"
+
+#: .\templates\base.html:75 .\templates\set_timezone.html:17
+msgid "Set Time Zone"
+msgstr "የሰዓት ሰቅ ለውጥ"
+
+#: .\templates\change_language.html:12
+msgid "Select the language"
+msgstr "ቋንቋውን ይምረጡ"
+
+#: .\templates\change_language.html:22
+msgid "Change"
+msgstr "ለውጥ"
+
+#: .\templates\index.html:35
+msgid "Your username is"
+msgstr "የተጠቃሚ ስምዎ"
+
+#: .\templates\index.html:35
+msgid "You are a guest."
+msgstr "እንግዳ ነዎት"
+
+#: .\templates\index.html:43
+msgid "Profile with roles"
+msgstr "ሚናዎች ያሉት መገለጫ"
+
+#: .\templates\index.html:44
+msgid "Email or username option"
+msgstr "ኢሜል ወይም የተጠቃሚ ስም አማራጭ"
+
+#: .\templates\index.html:45
+msgid "Account activation through e-mail"
+msgstr "በኢ-ሜይል በኩል መለያ ማግበር"
+
+#: .\templates\index.html:46
+msgid "Create, Update, View and Delete Account and Profile"
+msgstr "መለያ እና መገለጫ ይፍጠሩ ፣ ያሻሽሉ ፣ ይመልከቱ እና ይሰርዙ"
+
+#: .\templates\index.html:48 .\templates\index.html:71
+msgid "Read More"
+msgstr "ተጨማሪ ያንብቡ"
+
+#: .\templates\index.html:53
+msgid "Django Account Management App"
+msgstr "የጃንጎ መለያ አስተዳደር መተግበሪያ"
+
+#: .\templates\index.html:57
+msgid "Accounts"
+msgstr "መለያዎች"
+
+#: .\templates\index.html:60
+msgid "Registered Users"
+msgstr "የተመዘገቡ ተጠቃሚዎች"
+
+#: .\templates\index.html:63
+msgid "signed up users"
+msgstr "የተመዘገቡ ተጠቃሚዎች"
+
+#: .\templates\index.html:63
+msgid "signed up user"
+msgstr "የተመዘገበ ተጠቃሚ"
+
+#: .\templates\index.html:67 .\templates\index.html:68
+msgid "users"
+msgstr "ተጠቃሚዎች"
+
+#: .\templates\index.html:67
+msgid "added profile"
+msgstr "የተመዘገበ መገለጫ"
+
+#: .\templates\index.html:67 .\templates\index.html:68
+msgid "user"
+msgstr "ተጠቃሚ"
+
+#: .\templates\index.html:68
+msgid "added address"
+msgstr "የተመዘገበ አድራሻ"
+
+#: .\templates\index.html:76
+msgid "updated"
+msgstr "ተስተካክሏል"
+
+#: .\templates\index.html:76
+msgid "days ago"
+msgstr ""
+
+#: .\templates\index.html:76
+msgid "day ago"
+msgstr "ቀናት በፊት"
+
+#: .\templates\index.html:81
+msgid "You have visited this page"
+msgstr "ይህን ድረ -ገጽ ጎብኝተዋል"
+
+#: .\templates\index.html:81
+msgid "times"
+msgstr "ጊዜያት"
+
+#: .\templates\index.html:81
+msgid "time"
+msgstr "ጊዜ"
+
+#: .\templates\set_timezone.html:29
+msgid "Set"
+msgstr "አዘጋጅ"

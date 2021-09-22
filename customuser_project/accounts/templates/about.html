@@ -1,0 +1,52 @@
+{% extends "base.html" %} {% load static %} {% load i18n %} {% load bootstrap4 %}{% block content %}
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> {% bootstrap_css %}
+    <style>
+        body {
+            margin: 0;
+            font-family: Georgia;
+        }
+        
+        .about-image {
+            background: url("{% static 'images/aboutme.png' %}") no-repeat center;
+            background-size: cover;
+            height: 500px;
+            position: relative;
+        }
+        
+        .about-text {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="about-image">
+        <div class="about-text">
+            <h1 style="font-size:50px">{% trans 'I am' %} Ibsa Mohammed Ali</h1>
+            <h3>{% trans 'A Civil Engineer and Software Engineer' %}</h3>
+            <h3>{% trans 'Project Manager and Design Engineer' %}</h3>
+            <br>
+            <h5>{% trans 'Systems Analyst, Systems Architect & Programmer' %}..</h5>
+            <h5>{% trans 'This is a django customuser management app: Enjoy it' %}.</h5>
+            <br>
+            <br>
+            <a href="#" class="btn btn-primary btn-block">{% trans 'Contact Me' %}</a>
+        </div>
+    </div>
+    {% bootstrap_javascript jquery='full' %} {% block extrascript %}{% endblock %}
+</body>
+
+</html>
+
+{% endblock %}

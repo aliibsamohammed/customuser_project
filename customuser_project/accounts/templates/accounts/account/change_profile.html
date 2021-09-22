@@ -1,0 +1,28 @@
+{% extends 'base.html' %} {% load bootstrap4 %}{% load i18n %} {{ form.media }} {% block content %}
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> {% bootstrap_css %}{% block extrascript %} {% endblock %}
+
+</head>
+
+<body>
+    <br>
+    <div class="container">
+
+        <h4>{% trans 'Update profile' %}</h4>
+        <hr>
+        <form method="post" enctype="multipart/form-data">
+
+            {% csrf_token %} {% bootstrap_form form %}
+            <button class="btn-outline-primary btn-lg">{% trans 'Change' %}</button>
+
+        </form>
+    </div>
+    {% bootstrap_javascript jquery='full' %}
+</body>
+
+</html>
+{% endblock %}

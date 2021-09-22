@@ -1,0 +1,31 @@
+{% extends 'base.html' %} {% load bootstrap4 %} {% load i18n %} {% block content %}
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> {% bootstrap_css %}{% block extrascript %} {% endblock %}
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h4>{% trans 'Create Account' %}</h4>
+        <hr>
+        <form method="post">
+
+            {% csrf_token %} {% bootstrap_form form %}
+
+            <p>{% trans 'By creating your account you agree to the' %} <a href="#">{% trans 'Terms and Conditions of Account Privacy Policy' %}</a>.</p>
+
+            <button type="submit" class="btn btn-primary btn-lg btn-block">{% trans 'Create' %}</button>
+
+        </form>
+    </div>
+    {% bootstrap_javascript jquery='full' %}
+</body>
+
+</html>
+{% endblock %}

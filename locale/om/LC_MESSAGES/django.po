@@ -1,0 +1,222 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-20 03:35+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: .\customuser_project\settings.py:145
+msgid "Amharic"
+msgstr ""
+
+#: .\customuser_project\settings.py:146
+msgid "English"
+msgstr ""
+
+#: .\customuser_project\settings.py:147
+msgid "Afaan Oromoo"
+msgstr ""
+
+#: .\customuser_project\settings.py:153
+msgid "Simplified Chinese"
+msgstr ""
+
+#: .\templates\about.html:36
+msgid "I am"
+msgstr ""
+
+#: .\templates\about.html:37
+msgid "A Civil Engineer and Software Engineer"
+msgstr ""
+
+#: .\templates\about.html:38
+msgid "Project Manager and Design Engineer"
+msgstr ""
+
+#: .\templates\about.html:40
+msgid "Systems Analyst, Systems Architect & Programmer"
+msgstr ""
+
+#: .\templates\about.html:41
+msgid "This is a django customuser management app: Enjoy it"
+msgstr ""
+
+#: .\templates\about.html:44
+msgid "Contact Me"
+msgstr ""
+
+#: .\templates\base.html:9 .\templates\index.html:41
+msgid "Django User Management"
+msgstr ""
+
+#: .\templates\base.html:15
+msgid "Home"
+msgstr ""
+
+#: .\templates\base.html:23
+msgid "About"
+msgstr ""
+
+#: .\templates\base.html:26
+msgid "Contact"
+msgstr ""
+
+#: .\templates\base.html:30
+msgid "Admin"
+msgstr ""
+
+#: .\templates\base.html:41
+msgid "Account"
+msgstr ""
+
+#: .\templates\base.html:45
+msgid "Password"
+msgstr ""
+
+#: .\templates\base.html:46
+msgid "Email"
+msgstr ""
+
+#: .\templates\base.html:48
+msgid "Log out"
+msgstr ""
+
+#: .\templates\base.html:54
+msgid "Profile"
+msgstr ""
+
+#: .\templates\base.html:57
+msgid "Update"
+msgstr ""
+
+#: .\templates\base.html:59
+msgid "View"
+msgstr ""
+
+#: .\templates\base.html:66
+msgid "Sign Up"
+msgstr ""
+
+#: .\templates\base.html:69
+msgid "Log In"
+msgstr ""
+
+#: .\templates\base.html:72 .\templates\change_language.html:3
+msgid "Change language"
+msgstr ""
+
+#: .\templates\base.html:75 .\templates\set_timezone.html:17
+msgid "Set Time Zone"
+msgstr ""
+
+#: .\templates\change_language.html:12
+msgid "Select the language"
+msgstr ""
+
+#: .\templates\change_language.html:22
+msgid "Change"
+msgstr ""
+
+#: .\templates\index.html:35
+msgid "Your username is"
+msgstr ""
+
+#: .\templates\index.html:35
+msgid "You are a guest."
+msgstr ""
+
+#: .\templates\index.html:43
+msgid "Profile with roles"
+msgstr ""
+
+#: .\templates\index.html:44
+msgid "Email or username option"
+msgstr ""
+
+#: .\templates\index.html:45
+msgid "Account activation through e-mail"
+msgstr ""
+
+#: .\templates\index.html:46
+msgid "Create, Update, View and Delete Account and Profile"
+msgstr ""
+
+#: .\templates\index.html:48 .\templates\index.html:71
+msgid "Read More"
+msgstr ""
+
+#: .\templates\index.html:53
+msgid "Django Account Management App"
+msgstr ""
+
+#: .\templates\index.html:57
+msgid "Accounts"
+msgstr ""
+
+#: .\templates\index.html:60
+msgid "Registered Users"
+msgstr ""
+
+#: .\templates\index.html:63
+msgid "signed up users"
+msgstr ""
+
+#: .\templates\index.html:63
+msgid "signed up user"
+msgstr ""
+
+#: .\templates\index.html:67 .\templates\index.html:68
+msgid "users"
+msgstr ""
+
+#: .\templates\index.html:67
+msgid "added profile"
+msgstr ""
+
+#: .\templates\index.html:67 .\templates\index.html:68
+msgid "user"
+msgstr ""
+
+#: .\templates\index.html:68
+msgid "added address"
+msgstr ""
+
+#: .\templates\index.html:76
+msgid "updated"
+msgstr ""
+
+#: .\templates\index.html:76
+msgid "days ago"
+msgstr ""
+
+#: .\templates\index.html:76
+msgid "day ago"
+msgstr ""
+
+#: .\templates\index.html:81
+msgid "You have visited this page"
+msgstr ""
+
+#: .\templates\index.html:81
+msgid "times"
+msgstr ""
+
+#: .\templates\index.html:81
+msgid "time"
+msgstr ""
+
+#: .\templates\set_timezone.html:29
+msgid "Set"
+msgstr ""
