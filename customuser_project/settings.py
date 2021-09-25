@@ -20,7 +20,7 @@ CORS_ORIGIN_WHITELIST = (
     'http://127.0.0.1:8000',
 )
 
-ALLOWED_HOSTS = ['*', 'http://127.0.0.1:8000', 'https://git.heroku.com/secret-meadow-84520.git']
+ALLOWED_HOSTS = ['*', 'secret-meadow-84520.herokuapp.com', '127.0.0.1',]
 
 AUTH_USER_MODEL = 'accounts.CustomUser'
 
