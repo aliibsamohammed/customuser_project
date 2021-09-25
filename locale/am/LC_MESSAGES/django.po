@@ -83,7 +83,7 @@ msgstr "መለያ"
 
 #: .\templates\base.html:45
 msgid "Password"
-msgstr "ፕስወርድ"
+msgstr "የይለፍ ቃል"
 
 #: .\templates\base.html:46
 msgid "Email"
@@ -91,11 +91,11 @@ msgstr "ኢሜል"
 
 #: .\templates\base.html:48
 msgid "Log out"
-msgstr ""
+msgstr "ውጣ"
 
 #: .\templates\base.html:54
 msgid "Profile"
-msgstr "ውጣ"
+msgstr "መገለጫ"
 
 #: .\templates\base.html:57
 msgid "Update"
@@ -199,7 +199,7 @@ msgstr "ተስተካክሏል"
 
 #: .\templates\index.html:76
 msgid "days ago"
-msgstr ""
+msgstr "ቀን በፊት"
 
 #: .\templates\index.html:76
 msgid "day ago"

@@ -7,7 +7,7 @@ from django.urls import re_path
 from django.views.static import serve
 
 from django.conf.urls.i18n import i18n_patterns
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 
 from accounts.views import IndexPageView, AboutView, ChangeLanguageView, set_timezone
 

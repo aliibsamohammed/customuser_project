@@ -1,4 +1,4 @@
-{% load static %}{% load i18n %} {% get_media_prefix as MEDIA_URL %}{% load bootstrap4 %} {% bootstrap_css %} {% bootstrap_javascript jquery='full' %}{{ form.media }}
+{% load static %}{% load i18n %} {% load bootstrap4 %} {% get_media_prefix as MEDIA_URL %} {% bootstrap_css %} {{ form.media }}
 <!-- Copyright -->
 <!DOCTYPE html>
 
@@ -12,7 +12,7 @@
         © 2021 Copyright:
         <a class="text-primary" href="#">Ibsa Mohammed Ali</a>
     </div>
-
+    {% bootstrap_javascript jquery='full' %}
 </body>
 
 </html>
