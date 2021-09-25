@@ -14,9 +14,9 @@ Custom user management.
 | <img src="pictures/loggedin.png" width="200"> | <img src="pictures/change_email.png" width="200"> | <img src="pictures/change_password.png" width="200"> |
 
 
-|            Profile update        |       Profile view     |
-| ---------------------------------|------------------------|
-| <img src="pictures/profile1.png" width="200"> | <img src="pictures/profile2.png" width="200"> |
+|            Profile update        |       Profile view     |      Language view      |
+| ---------------------------------|------------------------|------------------------|
+| <img src="pictures/profile1.png" width="200"> | <img src="pictures/profile2.png" width="200"> | <img src="pictures/language.png" width="200"> 
 
 ## Functionality
 
