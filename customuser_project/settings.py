@@ -16,6 +16,10 @@ SECRET_KEY = os.getenv('DJANGO_USER_SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+CORS_ORIGIN_WHITELIST = (
+    'http://127.0.0.1:8000',
+)
+
 ALLOWED_HOSTS = ['*']
 
 AUTH_USER_MODEL = 'accounts.CustomUser'
@@ -31,7 +35,7 @@ INSTALLED_APPS = [
     'whitenoise.runserver_nostatic', #new
     'django.contrib.staticfiles',
 
-    
+    'corsheaders',
     'rest_framework',
     'rest_framework.authtoken',
     'rest_auth',
@@ -51,6 +55,7 @@ MIDDLEWARE = [
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.locale.LocaleMiddleware', # New
+    'corsheaders.middleware.CorsMiddleware',
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
@@ -89,6 +94,7 @@ WSGI_APPLICATION = 'customuser_project.wsgi.application'
 BOOTSTRAP4 = { 'include_jquery': True }
 
 
+CORS_ORIGIN_ALLOW_ALL = True
 
 
 
