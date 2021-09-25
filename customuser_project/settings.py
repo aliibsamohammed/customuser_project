@@ -14,7 +14,7 @@ SECRET_KEY = os.getenv('DJANGO_USER_SECRET_KEY')
 #SECRET_KEY = os.environ.get('DJANGO_USER_SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 CORS_ORIGIN_WHITELIST = (
     'http://127.0.0.1:8000',
