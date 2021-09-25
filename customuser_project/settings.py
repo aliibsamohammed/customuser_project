@@ -10,8 +10,8 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/3.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.getenv('DJANGO_USER_SECRET_KEY')
-#SECRET_KEY = os.environ.get('DJANGO_USER_SECRET_KEY')
+#SECRET_KEY = os.getenv('DJANGO_USER_SECRET_KEY')
+SECRET_KEY = os.environ.get('DJANGO_USER_SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
@@ -102,7 +102,7 @@ SESSION_COOKIE_SECURE = True
 CORS_ORIGIN_ALLOW_ALL = True
 
 #DEFAULT_FROM_EMAIL = os.getenv('DEFAULT_FROM_EMAIL')
-EMAIL_BACKEND = django.core.mail.backends.smtp.EmailBackend
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 #EMAIL_BACKEND = os.getenv('EMAIL_BACKEND')
 #EMAIL_HOST = os.getenv('EMAIL_HOST')
 #EMAIL_HOST_USER = os.getenv('SENDGRID_USER') # new
