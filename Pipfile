@@ -12,6 +12,8 @@ python-dateutil = "*"
 python-gettext = "*"
 pillow = "*"
 django-rest-auth = "*"
+six = "*"
+gunicorn = "*"
 
 [dev-packages]
 
