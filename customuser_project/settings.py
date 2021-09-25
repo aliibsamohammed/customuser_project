@@ -101,15 +101,15 @@ SESSION_COOKIE_SECURE = True
 
 CORS_ORIGIN_ALLOW_ALL = True
 
-DEFAULT_FROM_EMAIL = os.getenv('DEFAULT_FROM_EMAIL')
-
-EMAIL_BACKEND = os.getenv('EMAIL_BACKEND')
-EMAIL_HOST = os.getenv('EMAIL_HOST')
-EMAIL_HOST_USER = os.getenv('SENDGRID_USER') # new
-EMAIL_HOST_PASSWORD = os.getenv('SENDGRID_PASSWORD')
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-EMAIL_USE_SSL = False
+#DEFAULT_FROM_EMAIL = os.getenv('DEFAULT_FROM_EMAIL')
+EMAIL_BACKEND = django.core.mail.backends.smtp.EmailBackend
+#EMAIL_BACKEND = os.getenv('EMAIL_BACKEND')
+#EMAIL_HOST = os.getenv('EMAIL_HOST')
+#EMAIL_HOST_USER = os.getenv('SENDGRID_USER') # new
+#EMAIL_HOST_PASSWORD = os.getenv('SENDGRID_PASSWORD')
+#EMAIL_PORT = 587
+#EMAIL_USE_TLS = True
+#EMAIL_USE_SSL = False
 
 # Database
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
